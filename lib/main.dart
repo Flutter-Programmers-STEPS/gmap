@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:gmap/searchlocation/search_location.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 void main() => runApp(MyApp());
 class MyApp extends StatelessWidget {
@@ -7,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Google Maps Demo',
-      home: MapSample(),
+      home: Home(),
     );
   }
 }
